@@ -28,7 +28,8 @@ jobs:
 
       - name: Run pytest
         run: pytest
-runmigrations:
+
+  run_migrations:
     runs-on: ubuntu-latest
 
     steps:
