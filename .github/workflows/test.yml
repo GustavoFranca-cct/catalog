@@ -50,7 +50,7 @@ jobs:
       - name: Run django migrate
         run: python manage.py migrate
 
-  run_migrations:
+  make_migrations:
     runs-on: ubuntu-latest
 
     steps:
